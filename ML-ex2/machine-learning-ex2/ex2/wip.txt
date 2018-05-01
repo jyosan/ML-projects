@@ -1,0 +1,14 @@
+plot(X(p, 1), X(p, 2), 'k+','LineWidth', 2, 'MarkerSize', 7); 
+
+plot(X(pos, 1), X(pos, 2),'--rs','LineWidth',2,..
+                       'MarkerEdgeColor','k',...
+                       'MarkerFaceColor','g',...
+                       'MarkerSize',10)
+ 
+
+
+plot(X(pos, 1), X(pos, 2), 'k+','LineWidth', 2, 'MarkerSize', 7); 
+
+plot(X(pos, 1), X(pos, 2), 'k+','LineWidth', 2,  'MarkerSize', 7);
+
+plot(X(neg, 1), X(neg, 2), 'ko', 'MarkerFaceColor', 'y', 'MarkerSize', 7);
